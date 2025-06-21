@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*
+### Primary
+
+- Green 200 (lighter): hsl(148, 38%, 91%)
+- Green 600 (medium): hsl(169, 82%, 27%)
+- Red: hsl(0, 66%, 54%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey 500 (medium): hsl(186, 15%, 59%)
+- Grey 900 (darker): hsl(187, 24%, 22%)
+*/
+
+body {
+  margin: 0; /* Reseteamos el margen por defecto */
+
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+
+  background-color: hsl(148, 38%, 91%);
+
+  display: flex; /* Flexbox */
+  justify-content: center; /* Horizontal */
+  align-items: center; /* Vertical */
+
+  height: 100dvh; /* Dynamic Viewport Height */
+}
+
+/* span {
+  color: red;
+} */
+
+.required {
+  color: green;
+  font-weight: 700;
+}
+
+.contact-form {
+  background-color: white;
+
+  width: 400px;
+
+  padding: 32px; /* 2 * 16px */
+
+  border-radius: 16px;
+
+  /* border: 1px solid red; */
+}
+
+h1 {
+  margin: 0;
+
+  margin-bottom: 32px;
+  /* margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 32px; */
+
+  color: hsl(187, 24%, 22%);
+
+  font-weight: 700;
+}
+
+label {
+  /* border: 1px solid red; */
+
+  display: block;
+  margin-bottom: 16px;
+}
+
+label input[type=text],
+label input[type=email],
+label textarea {
+  display: block;
+
+  margin-top: 8px;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid hsl(186, 15%, 59%);
+}
+
+label textarea {
+  resize: none;
+}
+
+.row {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 16px;
+}
+
+input[type=submit] {
+  /* DONE: Terminar los estilos del botón */
+  width: 100%;
+  border: none;
+  padding: 16px;
+  color: #FFFFFF;
+  background-color: hsl(169, 82%, 27%);
+  border-radius: 8px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.query-type {
+  border: 1px solid hsl(186, 15%, 59%);
+
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.i-consent {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
