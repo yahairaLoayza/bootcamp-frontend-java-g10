@@ -1,0 +1,86 @@
+{
+  "generos": [
+    {
+      "id": "1",
+      "nombre": "Comedia"
+    },
+    {
+      "id": "2",
+      "nombre": "Acción"
+    },
+    {
+      "id": "3",
+      "nombre": "Animación"
+    },
+    {
+      "id": "4",
+      "nombre": "Aventura"
+    }
+  ],
+  "peliculas": [
+    {
+      "nombre": "Barbie-editado333",
+      "imagen": "https://placehold.co/100x150/pink/white",
+      "estreno": "2023-07-31",
+      "resumen": "resumen editado",
+      "generoId": "4",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "nombre": "Mission: Impossible - Dead Reckoning Part One",
+      "imagen": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+      "estreno": "2023-07-13",
+      "generoId": 2,
+      "resumen": "Resumen de prueba"
+    },
+    {
+      "id": "5",
+      "nombre": "The Flash",
+      "imagen": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg",
+      "estreno": "2023-06-15",
+      "generoId": 2,
+      "resumen": "Resumen de prueba"
+    },
+    {
+      "id": "6",
+      "nombre": "Spider-Man: Across the Spider-Verse ",
+      "imagen": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "estreno": "2023-06-02",
+      "generoId": 3,
+      "resumen": "Resumen de prueba"
+    },
+    {
+      "id": "7",
+      "nombre": "Indiana Jones and the Dial of Destiny",
+      "imagen": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",
+      "estreno": "2023-06-30",
+      "generoId": 4,
+      "resumen": "Resumen de prueba"
+    },
+    {
+      "id": "8",
+      "nombre": "Elemental",
+      "imagen": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8riWcADI1ekEiBguVB9vkilhiQm.jpg",
+      "estreno": "2023-06-15",
+      "generoId": 3,
+      "resumen": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common."
+    },
+    {
+      "id": "9",
+      "nombre": "The Super Mario Bros. Movie",
+      "imagen": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+      "estreno": "2023-04-05",
+      "generoId": 3,
+      "resumen": "Resumen de prueba"
+    },
+    {
+      "id": "4203",
+      "nombre": "Green",
+      "imagen": "https://placehold.co/100x150/green/white",
+      "estreno": "2025-07-17",
+      "resumen": "asdasasdasd green",
+      "generoId": "3"
+    }
+  ]
+}

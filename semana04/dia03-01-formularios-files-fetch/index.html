@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios + files + fetch</title>
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      width: 250px;
+      margin: 0 auto;
+      background-color: #dea;
+      padding: 16px;
+    }
+
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  
+  <form id="myForm">
+    <label>
+      Fullname
+      <input type="text" name="fullName" required />
+    </label>
+    <label>
+      Foto
+      <input type="file" name="photo" />
+    </label>
+    <label>
+      Documentos
+      <input type="file" name="documents" multiple />
+    </label>
+    <button type="submit">Enviar data</button>
+  </form>
+
+  <pre id="results"></pre>
+
+  <img id="previewPhoto" width="200" />
+
+  <script src="main.js"></script>
+</body>
+</html>
