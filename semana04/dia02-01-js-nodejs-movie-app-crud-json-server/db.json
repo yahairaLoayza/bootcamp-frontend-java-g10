@@ -19,14 +19,6 @@
   ],
   "peliculas": [
     {
-      "nombre": "Barbie-editado333",
-      "imagen": "https://placehold.co/100x150/pink/white",
-      "estreno": "2023-07-31",
-      "resumen": "resumen editado",
-      "generoId": "4",
-      "id": "1"
-    },
-    {
       "id": "3",
       "nombre": "Mission: Impossible - Dead Reckoning Part One",
       "imagen": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
